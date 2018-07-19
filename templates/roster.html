@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    {% for Gs in Gs %}
+    <h1>TASK{{ Gs.GPU_TASK_NO }}</h1>
+    <p> Its running state is {{ Gs.RUNNING_STATE }} </p>
+     <p>its stop state is {{ Gs.STOP_STATE }}</p> 
+     <p> its pause sate is {{ Gs.PAUSE_STATE }}</p>  
+    {% endfor %}
+</body>
+</html>
